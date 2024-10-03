@@ -25,3 +25,12 @@
 ### Implicit Relative Paths, from /
 - Process: go to / directory and execute /challenge/run
 - Flag: pwn.college{QDr7UaYGHjBePh6d2BtiyIzKgih.dlDN1QDLzUjN0czW}
+### Explicit Relative Paths, from/
+- Process: Go to / directory anf from there use that directory itself to go to /challenge/run
+- Flag: pwn.college{0rDQZmFaUN4rSabBH06G4crZh9Y.dBTN1QDLzUjN0czW}
+### Implicit Relative Paths
+- Process: Use . to execute /challenge/run from the current directory
+- Flag: pwn.college{cHS0cr3l1B-wGMXuKNIIDeLhhCi.dFTN1QDLzUjN0czW}
+### Home Sweet Home
+- Process: Use ~ this to access the path of current directory and pass an argument like "~/x" to /challenge/run
+- Flag: pwn.college{wcjHC9fQjavNd_OO8LpR39TGzhe.dNzM4QDLzUjN0czW}
