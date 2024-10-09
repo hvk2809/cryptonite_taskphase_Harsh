@@ -85,5 +85,8 @@
 - Process: Search in the manual for flag word it will give you the argument
 - Flag: pwn.college{c7m8rBWMjs6SobzcRvasoNiR0bc.dVTM4QDLzUjN0czW}
 ### Searching for Manuals
-- Process
+- Process: use the commend man -k challenge to find the keyword challenge in all all man files and then find flag argument
+- Flag: pwn.college{gcfAR_heng0g82eFHE28YxtaqBu.dZTM4QDLzUjN0czW}
+### Helpful Programs
+- Process: 
 
