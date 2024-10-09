@@ -88,5 +88,9 @@
 - Process: use the commend man -k challenge to find the keyword challenge in all all man files and then find flag argument
 - Flag: pwn.college{gcfAR_heng0g82eFHE28YxtaqBu.dZTM4QDLzUjN0czW}
 ### Helpful Programs
-- Process: 
+- Process: first execute /challege/challenge --help it gives its all arguments then we pass -p argument to it get our secret number and then pass the argument --give-the-flag 486 to /challenge/challenge
+- Flag: pwn.college{MAQF4rQe8-vgDdDRn6gcUzEvUP_.ddjM4QDLzUjN0czW}
+### Help for Builtins
+- Process: First pass challenge to help we see all its shells and over there 'secret' value is given use that to access flag
+- Flag: pwn.college{0-yWdGU7dR3z0ZNZP4RCs9V9Xvo.dRTM5QDLzUjN0czW}
 
