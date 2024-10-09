@@ -69,3 +69,21 @@
 - Process: use find / -name flag to find all flag directories and files and then use hit and trial to find the actual flag which was found in /opt/linux/linux-5.4/drivers/usb/gadget/function/flag
 - Flag: pwn.college{AQSFWjnIlPbAf-Qj24lkjfcI9Dl.dJzM4QDLzUjN0czW}
 ### Linking Files
+- Process: use command ln -sf /flag /home/hacker/not-the-flag. We use sf instead os cause -s cannot overwrite existing link which is a  broken link so -sf does that
+- Flag: pwn.college{cc3tB2Znv4P_jVIYunm6qghMCXE.dlTM1UDLzUjN0czW}
+## Digesting Documentaion
+### Learning from Documention
+- Process: pass --giveflag as argument to /challenge/challenge
+- Flag: pwn.college{wUWBPDyA_hPJ9pT5_opvVps_xj0.dRjM5QDLzUjN0czW}
+### Learning Complex Usage
+- Process: Pass the argumet /flag to argument --printfile as /flag is the place where all the hidden files are present
+- Flag: pwn.college{kUSOLQm3fyJPooTN1sJ1tLdwAt3.dVjM5QDLzUjN0czW}
+### Reading Manuals
+- Process: read the entire manual below the exact argument is given to pass to /challenge/challenge to get flag
+- Flag: pwn.college{Ax5EPygeEDDApvGYIrcEqRRM1FO.dRTM4QDLzUjN0czW}
+### Searching Manuals
+- Process: Search in the manual for flag word it will give you the argument
+- Flag: pwn.college{c7m8rBWMjs6SobzcRvasoNiR0bc.dVTM4QDLzUjN0czW}
+### Searching for Manuals
+- Process
+
