@@ -138,4 +138,9 @@
 - Process: first redirect standard error to standard output using 2>&1 and then grep pwn
 - Flag: pwn.college{AmAkRzGzb8Ke1fJRBpkj-v8-vsr.dVDM5QDLzUjN0czW}
 ### Duplicating Piped Data with Tee
-- Process: 
+- Process: tee the copy of pwn to different file and then cat the file to get secret code and then execute both the command
+- Flag: pwn.college{80y2Y8lMCa-F-PVY53PYHZeGiQ3.dFjM5QDLzUjN0czW}
+### Writing to Multiple Commands
+- Process: Duplicate the data to give input in two files using tee >()
+- Flag: pwn.college{8KKzRGazMR6KGQTQxXxsZqUMyGo.dBDO0UDLzUjN0czW}
+### 
