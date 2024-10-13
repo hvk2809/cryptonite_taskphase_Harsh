@@ -143,4 +143,6 @@
 ### Writing to Multiple Commands
 - Process: Duplicate the data to give input in two files using tee >()
 - Flag: pwn.college{8KKzRGazMR6KGQTQxXxsZqUMyGo.dBDO0UDLzUjN0czW}
-### 
+### Split-piping stderr and stdout
+- Process: Send stderr to /challenge/the and stdout to /challenge/planet from /challenge/hack
+- Flag: pwn.college{sfq9jbovLejTbSdOx8PxHU2Ykq-.dFDNwYDLzUjN0czW}
