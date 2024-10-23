@@ -49,8 +49,12 @@ For bzip2 compression:
 
 if it is converted to POSIX tar archive we need to extract using tar.
 As tar was used to bundle the file together before compression so now we have to extract it.
+
 "tar -xvf file_name"
+
 -x : to extract
+
 -v : shows details of extraction
+
 -f : file to extract from
 - Password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
