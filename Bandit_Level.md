@@ -38,9 +38,11 @@
 ## Level 12
 - Process:
 In this we have to decompressed multiple times to get to the password. There are two types of compression which has been used gzip and bzip2. Firstly we will conver the hex dump to a binary file with command "xxd -r file_name new_file" over -r is used because it is a hex dump. After converting it to binary we will check the file type and according to the compresseion decompress it.
+
 For gzip compression:
 1. Rename the file - "mv file_name file_name.gz"
 2. decompressed it - "gunzip file_name.gz"
+
 For bzipw compression:
 1. Rename the file - "mv file_name file_name.bz2
 2. decompressed it - "bunzip2 file_name.bz2"
