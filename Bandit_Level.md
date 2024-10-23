@@ -32,3 +32,22 @@
 ## Level 10
 - Process: Use the command base64 -d(learned from the manual) to decode the text
 - Password: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+## Level 11
+- Process: read the file and use online rot 13 to decipher it
+- Password: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+## Level 12
+- Process:
+In this we have to decompressed multiple times to get to the password. There are two types of compression which has been used gzip and bzip2. Firstly we will conver the hex dump to a binary file with command "xxd -r file_name new_file" over -r is used because it is a hex dump. After converting it to binary we will check the file type and according to the compresseion decompress it.
+For gzip compression:
+1. Rename the file - "mv file_name file_name.gz"
+2. decompressed it - "gunzip file_name.gz"
+For bzipw compression:
+1. Rename the file - "mv file_name file_name.bz2
+2. decompressed it - "bunzip2 file_name.bz2"
+if it is converted to POSIX tar archive we need to extract using tar.
+As tar was used to bundle the file together before compression so now we have to extract it.
+"tar -xvf file_name"
+-x : to extract
+-v : shows details of extraction
+-f : file to extract from
+- Password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
