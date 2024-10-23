@@ -43,7 +43,7 @@ For gzip compression:
 1. Rename the file - "mv file_name file_name.gz"
 2. decompressed it - "gunzip file_name.gz"
 
-For bzipw compression:
+For bzip2 compression:
 1. Rename the file - "mv file_name file_name.bz2
 2. decompressed it - "bunzip2 file_name.bz2"
 if it is converted to POSIX tar archive we need to extract using tar.
